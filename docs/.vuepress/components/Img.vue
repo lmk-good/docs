@@ -1,6 +1,6 @@
 <template>
   <div class="Img">
-      我是哈哈哈哈
+      我是哈哈哈哈1
   </div>
 </template>
 
