@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bug总结 | Personal Notes</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/docs/assets/css/0.styles.2c9ab2aa.css" as="style"><link rel="preload" href="/docs/assets/js/app.b5fc5ab5.js" as="script"><link rel="preload" href="/docs/assets/js/2.ce338bb1.js" as="script"><link rel="preload" href="/docs/assets/js/10.3e839f76.js" as="script"><link rel="prefetch" href="/docs/assets/js/11.e08a73c3.js"><link rel="prefetch" href="/docs/assets/js/12.2785b80f.js"><link rel="prefetch" href="/docs/assets/js/13.f052013e.js"><link rel="prefetch" href="/docs/assets/js/14.13d729ed.js"><link rel="prefetch" href="/docs/assets/js/3.79cdb1e7.js"><link rel="prefetch" href="/docs/assets/js/4.be422f74.js"><link rel="prefetch" href="/docs/assets/js/5.c40b7033.js"><link rel="prefetch" href="/docs/assets/js/6.8573cf5f.js"><link rel="prefetch" href="/docs/assets/js/7.2bf2d60c.js"><link rel="prefetch" href="/docs/assets/js/8.abc3e0fe.js"><link rel="prefetch" href="/docs/assets/js/9.7bb303c5.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.2c9ab2aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">Personal Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue.js" class="dropdown-title"><span class="title">Vue.js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vues/" class="nav-link">
+  WebPack
+</a></li><li class="dropdown-item"><!----> <a href="/docs/message/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/docs/message/" class="nav-link">
+  留言
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  External
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  GitHub
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bug" class="dropdown-title"><span class="title">Bug</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/bug/" class="nav-link router-link-exact-active router-link-active">
+  Element-UI中Select下拉框问题
+</a></li><li class="dropdown-item"><!----> <a href="/docs/bug/element/" class="nav-link">
+  Japanese问题
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue.js" class="dropdown-title"><span class="title">Vue.js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/vues/" class="nav-link">
+  WebPack
+</a></li><li class="dropdown-item"><!----> <a href="/docs/message/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/docs/message/" class="nav-link">
+  留言
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  External
+</a></div><div class="nav-item"><a href="/docs/about/" class="nav-link">
+  GitHub
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bug" class="dropdown-title"><span class="title">Bug</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/bug/" class="nav-link router-link-exact-active router-link-active">
+  Element-UI中Select下拉框问题
+</a></li><li class="dropdown-item"><!----> <a href="/docs/bug/element/" class="nav-link">
+  Japanese问题
+</a></li></ul></div></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="bug总结"><a href="#bug总结" class="header-anchor">#</a> Bug总结</h2> <div class="custom-block danger"><p class="custom-block-title">WARNING</p> <p>Element-UIForm表单中Select下拉框自带问题</p></div> <img src="/docs/img/Select.PNG" alt="下拉框"> <p><strong>1、首先创建一个js文件，操作如下:</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> lock <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> el <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token comment">// const MousedownEvent = new Event('mousedown', { bubbles: true });</span>
+<span class="token keyword">var</span> MousedownEvent <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createEvent</span><span class="token punctuation">(</span><span class="token string">'HTMLEvents'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+MousedownEvent<span class="token punctuation">.</span><span class="token function">initEvent</span><span class="token punctuation">(</span><span class="token string">'mousedown'</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// const MouseupEvent = new Event('mouseup', { bubbles: true });</span>
+<span class="token keyword">var</span> MouseupEvent <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createEvent</span><span class="token punctuation">(</span><span class="token string">'HTMLEvents'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+MouseupEvent<span class="token punctuation">.</span><span class="token function">initEvent</span><span class="token punctuation">(</span><span class="token string">'mouseup'</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//参数名称:事件名称，是否支持冒泡，是否取消默认事件</span>
+<span class="token function-variable function">const fakeClickOutSide </span><span class="token operator">=</span><span class="token function"> </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token parameter"> </span><span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    document<span class="token punctuation">.</span><span class="token function">dispatchEvent</span><span class="token punctuation">(</span>MousedownEvent<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    document<span class="token punctuation">.</span><span class="token function">dispatchEvent</span><span class="token punctuation">(</span>MouseupEvent<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    lock <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span> <span class="token comment">// console.log('dispatchEvent');</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function-variable function">const mousedownHandle </span><span class="token operator">=</span><span class="token parameter"> e </span><span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> classList <span class="token operator">=</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>classList<span class="token punctuation">;</span> <span class="token comment">//永远接收dom事件</span>
+    <span class="token keyword">if</span><span class="token function"> </span><span class="token punctuation">(</span>classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-input__inner'</span><span class="token punctuation">)</span> <span class="token operator">||</span> classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-select__caret'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        lock <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span><span class="token function"> </span><span class="token punctuation">(</span>lock<span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+<span class="token function">    fakeClickOutSide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function-variable function">const mousewheelHandle </span><span class="token operator">=</span><span class="token parameter"> e </span><span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token function"> </span><span class="token punctuation">(</span>lock <span class="token operator">||</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-select-dropdown__item'</span><span class="token punctuation">)</span> <span class="token operator">||</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>parentNode<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-select-dropdown__item'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span><span class="token function"> </span><span class="token punctuation">(</span>lock <span class="token operator">||</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-time-spinner__item'</span><span class="token punctuation">)</span> <span class="token operator">||</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>parentNode<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">'el-time-spinner__item'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+<span class="token function">    fakeClickOutSide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function-variable function">const eventListener </span><span class="token operator">=</span><span class="token parameter"> type </span><span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    el<span class="token punctuation">[</span>type <span class="token operator">+</span> <span class="token string">'EventListener'</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token string">'mousedown'</span><span class="token punctuation">,</span> mousedownHandle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">[</span>type <span class="token operator">+</span> <span class="token string">'EventListener'</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token string">'mousewheel'</span><span class="token punctuation">,</span> mousewheelHandle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">[</span>type <span class="token operator">+</span> <span class="token string">'EventListener'</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token string">'DOMMouseScroll'</span><span class="token punctuation">,</span> mousewheelHandle<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// fireFox 3.5+</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+<span class="token function">    mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        el <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$el<span class="token punctuation">;</span>
+        el<span class="token punctuation">.</span>addFakeClickOutSideEventCount <span class="token operator">=</span> el<span class="token punctuation">.</span>addFakeClickOutSideEventCount <span class="token operator">||</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token operator">!</span>el<span class="token punctuation">.</span>addFakeClickOutSideEventCount <span class="token operator">&amp;&amp;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$nextTick</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token parameter"> </span><span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+<span class="token function">                eventListener</span><span class="token punctuation">(</span><span class="token string">'add'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        el<span class="token punctuation">.</span>addFakeClickOutSideEventCount <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function">    destroyed</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">        eventListener</span><span class="token punctuation">(</span><span class="token string">'remove'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        el<span class="token punctuation">.</span>addFakeClickOutSideEventCount <span class="token operator">-=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>2、将文件导入你想要的页面中并进行混入,操作如下:</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> fakeClickOutSide <span class="token string">'项目文件地址'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  mixins<span class="token operator">:</span> <span class="token punctuation">[</span>fakeClickOutSide<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.b5fc5ab5.js" defer></script><script src="/docs/assets/js/2.ce338bb1.js" defer></script><script src="/docs/assets/js/10.3e839f76.js" defer></script>
+  </body>
+</html>
